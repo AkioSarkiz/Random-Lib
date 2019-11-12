@@ -1,0 +1,12 @@
+{
+    "name": "akiosarkiz/randomlib",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akio Sarkiz",
+            "email": "akiosarkiz@gmail.com"
+        }
+    ],
+    "require": {}
+}
