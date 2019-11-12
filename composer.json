@@ -1,5 +1,6 @@
 {
     "name": "akiosarkiz/randomlib",
+    "description": "random lib",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -8,5 +9,10 @@
             "email": "akiosarkiz@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "~7.1"
+    },
+    "autoload": {
+        "classmap": [ "src/" ]
+    }
 }
