@@ -1,6 +1,6 @@
 {
-    "name": "akiosarkiz/randomlib",
-    "description": "random lib",
+    "name": "Random-Lib",
+    "description": "Package for random value.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,9 +10,20 @@
         }
     ],
     "require": {
-        "php": "~7.1"
+        "php": "~7.2",
+        "ext-openssl": "*"
     },
     "autoload": {
-        "classmap": [ "src/" ]
+        "psr-4": {
+            "Random\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
     }
 }
