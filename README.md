@@ -1,6 +1,10 @@
 # Random-library
 
 This package for get random value.
+Installation:
+```
+composer require akiosarkiz/randomlib
+```
 
 ### Example
 ```php
