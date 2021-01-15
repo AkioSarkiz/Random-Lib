@@ -1,4 +1,5 @@
 # Random-library
+[![Build Status](https://travis-ci.org/AkioSarkiz/Random-Lib.svg?branch=master)](https://travis-ci.org/AkioSarkiz/Random-Lib)
 
 This package for get random value.
 Installation:
